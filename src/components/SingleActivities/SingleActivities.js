@@ -1,6 +1,6 @@
 import React from 'react';
 import './SingleActivities.css'
-const SingleActivities = ({activity}) => {
+const SingleActivities = ({activity, handleAddToCart}) => {
     const {details, id, img, name, time} = activity;
     return (
         <div className='cart'>
@@ -9,7 +9,7 @@ const SingleActivities = ({activity}) => {
             <p>{details.slice(0, 120)}</p>
             <p>For Age: 20-25</p>
             <p>Time required: {time}</p>
-            <button className='bg-teal-600 text-white w-3/4 mx-auto text-center'>Add to card</button>
+            <button onClick={() => handleAddToCart(activity)} className='bg-teal-600 text-white w-3/4 mx-auto text-center'>Add to card</button>
         </div>
     );
 };

@@ -39,7 +39,7 @@ const Home = () => {
                         <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
                     </div>
                 </div>
-                <div className="right-side bg-white pt-5 px-10 rounded-md h-[750px]">
+                <div className="right-side bg-white px-9 py-7 rounded-md h-[750px]">
                     <div className="details-container">
                         <About></About>
                         <AddBreak setAddBreaks={setAddBreaks}></AddBreak>

@@ -1,12 +1,12 @@
 import React from 'react';
-import img from '../../img/Screenshot_31.png'
+import img from '../../img/Screenshot_31.png';
 const About = () => {
     return (
         <div>
             <div className='flex items-center'>
-                <img className='w-12 h-12 rounded-full mr-4' src={img} alt="" />
+                <img className='w-12 h-12 rounded-full mr-5' src={img} alt="" />
                 <div>
-                    <p>Mohammed Takbir</p>
+                    <p className='text-xl font-medium'>Mohammed Takbir</p>
                     <p>Rupganj, Narayanganj</p>
                 </div>
             </div>

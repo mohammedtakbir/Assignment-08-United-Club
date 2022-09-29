@@ -5,16 +5,8 @@ const AddBreak = ({ setAddBreaks }) => {
         <div>
             <h2 className='text-2xl font-medium'>Add a Break</h2>
             <div className='flex bg-slate-200 py-5 mt-5 justify-between md:justify-around rounded-lg px-3 mb-8'>
-                {/* <button onClick={() => {
-                    setAddBreaks(10)
-                    localStorage.setItem('addTime', JSON.stringify(10));
-                }} className='list-none bg-white w-[50px] h-[50px] leading-[50px] rounded-full text-center'>10s</button>
-
-                <button onClick={() => {
-                    setAddBreaks(20)
-                    localStorage.setItem('addTime', JSON.stringify(20));
-                }} className='list-none bg-white w-[50px] h-[50px] leading-[50px] rounded-full text-center'>20s</button> */}
                 <button onClick={(e) =>{
+                    console.log(e.target.innerText)
                     setAddBreaks((e.target.innerText).slice(0, 2))
                     localStorage.setItem('addTime', JSON.stringify((e.target.innerText).slice(0, 2)))
                 }} className='list-none bg-white w-[50px] h-[50px] leading-[50px] rounded-full text-center'>10s</button>

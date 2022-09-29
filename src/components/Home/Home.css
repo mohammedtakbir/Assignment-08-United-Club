@@ -3,6 +3,6 @@
 }
 .home-container{
     display: grid;
-    grid-template-columns: 80% 18%;
-    gap: 2%;
+    grid-template-columns: 75% 25%;
+    gap: 5%;
 }

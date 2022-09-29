@@ -1,7 +1,9 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import About from '../About/About';
 import Activities from '../Activities/Activities';
+import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import './Home.css'
 const Home = () => {
     const [activities, setActivities] =useState([]);
@@ -29,8 +31,11 @@ const Home = () => {
                         <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
                     </div>
                 </div>
-                <div className="right-side">
-                    <h1>selectted Item: {cart.length}</h1>
+                <div className="right-side bg-white pt-5 px-10">
+                    <div className="details-container">
+                        <About></About>
+                        <ExerciseDetails cart={cart}></ExerciseDetails>
+                    </div>
                 </div>
             </div>
         </div>

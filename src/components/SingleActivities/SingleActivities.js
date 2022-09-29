@@ -8,7 +8,7 @@ const SingleActivities = ({activity, handleAddToCart}) => {
             <h2>{name}</h2>
             <p>{details.slice(0, 120)}</p>
             <p>For Age: 20-25</p>
-            <p>Time required: {time} mins</p>
+            <p>Time required: {time}s</p>
             <button onClick={() => handleAddToCart(activity)} className='bg-teal-600 text-white w-3/4 mx-auto text-center'>Add to card</button>
         </div>
     );

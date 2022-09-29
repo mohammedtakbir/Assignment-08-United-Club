@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Passing Accuracy",
         "img": "https://www.europeanfootball.academy/wp-content/uploads/2015/12/Night-Shot-1a-1200x737.png",
-        "time": 30,
+        "time": 90,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
         "id": 2,
         "name": "Shooting",
         "img": "https://footballtechniques.co/wp-content/uploads/2019/07/Messi-shooting.jpg",
-        "time": 40,
+        "time": 120,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
         "id": 3,
         "name": "Dribbling",
         "img": "https://sbcoachescollege.com/wp-content/uploads/2021/06/10-Dribbling-Drills-for-Dominant-Ball-Control-in-Soccer.jpg",
-        "time": 35,
+        "time": 135,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
         "id": 4,
         "name": "Heading",
         "img": "https://i.ytimg.com/vi/yUHLT5cU3aE/maxresdefault.jpg",
-        "time": 25,
+        "time": 80,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
         "id": 5,
         "name": "Receiving",
         "img": "https://www.gftskills.com/wp-content/uploads/2016/09/football-2518982_1280.jpg",
-        "time": 15,
+        "time": 150,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       },
       {
         "id": 6,
         "name": "Touch and ball control",
         "img": "https://img.bleacherreport.net/img/images/photos/002/544/547/171458434-andres-iniesta-of-spain-juggles-the-ball-during-a_crop_exact.jpg?w=900&h=600&q=75",
-        "time": 40,
+        "time": 90,
         "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
 ]

@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import About from '../About/About';
 import Activities from '../Activities/Activities';
+import AddBreak from '../addBreak/AddBreak';
 import ExerciseDetails from '../ExerciseDetails/ExerciseDetails';
 import './Home.css'
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
                 <div className="right-side bg-white pt-5 px-10">
                     <div className="details-container">
                         <About></About>
+                        <AddBreak></AddBreak>
                         <ExerciseDetails cart={cart}></ExerciseDetails>
                     </div>
                 </div>

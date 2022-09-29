@@ -1,7 +1,7 @@
 import React from 'react';
 import './SingleActivities.css'
 const SingleActivities = ({activity, handleAddToCart}) => {
-    const {details, id, img, name, time} = activity;
+    const {details, img, name, time} = activity;
     return (
         <div className='cart'>
             <img src={img} alt="" />

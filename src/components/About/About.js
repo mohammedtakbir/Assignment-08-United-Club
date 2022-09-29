@@ -6,11 +6,11 @@ const About = () => {
             <div className='flex items-center'>
                 <img className='w-12 h-12 rounded-full mr-4' src={img} alt="" />
                 <div>
-                    <p>mohammed_takbir</p>
-                    <p>rupganj, narayanganj</p>
+                    <p>Mohammed Takbir</p>
+                    <p>Rupganj, Narayanganj</p>
                 </div>
             </div>
-            <div className='flex justify-around bg-slate-300 my-5 p-5 rounded-lg text-center'>
+            <div className='flex justify-between md:justify-around bg-slate-300 my-5 p-5 rounded-lg text-center'>
                 <div>
                     <h2><span className='font-medium text-2xl'>70</span>kg</h2>
                     <p>weight</p>

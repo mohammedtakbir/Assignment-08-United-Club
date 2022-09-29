@@ -25,7 +25,7 @@ const Home = () => {
     };
     const [addBreaks, setAddBreaks] = useState([]);
     return (
-        <div className='mt-10 main'>
+        <div className='my-10 main'>
             <h1 className='text-2xl font-medium'>Select Today's Exercise</h1>
             <div className="home-container mt-5">
                 <div className="left-side">
@@ -33,7 +33,7 @@ const Home = () => {
                         <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
                     </div>
                 </div>
-                <div className="right-side bg-white pt-5 px-10">
+                <div className="right-side bg-white pt-5 px-10 rounded-md h-[700px]">
                     <div className="details-container">
                         <About></About>
                         <AddBreak setAddBreaks={setAddBreaks}></AddBreak>

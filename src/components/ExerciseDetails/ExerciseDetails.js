@@ -26,7 +26,7 @@ const ExerciseDetails = (props) => {
                 <p className='text-xl text-gray-500'>{addBreaks} seconds</p>
             </div>
             <div className='mt-12 flex justify-center'>
-                <button onClick={handlerCompleted} className='bg-teal-500 text-white font-medium text-xl py-3 w-full rounded-lg'>Activity Completed</button>
+                <button onClick={handlerCompleted} className='bg-teal-500 text-white font-medium text-xl py-3 w-full rounded-lg hover:bg-teal-600'>Activity Completed</button>
             </div>
         </div>
     );

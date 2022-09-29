@@ -23,8 +23,8 @@ const Home = () => {
             setCart([selectActivity]);
         }
     };
-    const [addBreaks, setAddBreaks] = useState([]);
 
+    const [addBreaks, setAddBreaks] = useState([]);
     useEffect( () => {
         const storedData = JSON.parse(localStorage.getItem('addTime')); 
         setAddBreaks(storedData);
@@ -39,7 +39,7 @@ const Home = () => {
                         <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
                     </div>
                 </div>
-                <div className="right-side bg-white px-9 py-7 rounded-md h-[750px]">
+                <div className="right-side bg-white px-9 py-7 rounded-md h-[780px]">
                     <div className="details-container">
                         <About></About>
                         <AddBreak setAddBreaks={setAddBreaks}></AddBreak>

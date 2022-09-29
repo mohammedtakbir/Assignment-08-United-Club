@@ -9,7 +9,7 @@ const SingleActivities = ({activity, handleAddToCart}) => {
             <p className='text-gray-500 my-3'>{details.slice(0, 150)}</p>
             <p className='font-medium text-lg'>For Age: <span className='font-bold'>20-25</span></p>
             <p className='font-medium text-lg my-3 mb-4'>Time required: {time}s</p>
-            <button onClick={() => handleAddToCart(activity)} className='bg-teal-600 text-white w-full text-center py-2 rounded-md text-lg'>Add to card</button>
+            <button onClick={() => handleAddToCart(activity)} className='bg-teal-500 text-white w-full text-center py-2 rounded-md text-lg hover:bg-teal-600'>Add to card</button>
         </div>
     );
 };

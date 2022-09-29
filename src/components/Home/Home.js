@@ -26,14 +26,14 @@ const Home = () => {
     const [addBreaks, setAddBreaks] = useState([]);
     return (
         <div className='my-10 main'>
-            <h1 className='text-2xl font-medium'>Select Today's Exercise</h1>
+            <h1 className='text-2xl font-medium'>Select Today's Training</h1>
             <div className="home-container mt-5">
                 <div className="left-side">
                     <div className="activities-container">
                         <Activities activities={activities} handleAddToCart={handleAddToCart}></Activities>
                     </div>
                 </div>
-                <div className="right-side bg-white pt-5 px-10 rounded-md h-[700px]">
+                <div className="right-side bg-white pt-5 px-10 rounded-md h-[750px]">
                     <div className="details-container">
                         <About></About>
                         <AddBreak setAddBreaks={setAddBreaks}></AddBreak>

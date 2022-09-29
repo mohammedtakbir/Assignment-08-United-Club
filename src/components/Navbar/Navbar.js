@@ -7,7 +7,7 @@ const Navbar = () => {
             <div>
                 <a className='text-md md:text-2xl mx-2 md:mx-3'href="/home">Home</a>
                 <a className='text-md md:text-2xl mx-2 md:mx-3'href="/trainings">Trainings</a>
-                <a className='text-md md:text-2xl ml-2 md:ml-3'href="/signUp">Sign Up</a>
+                <a className='text-md md:text-2xl ml-2 md:ml-3'href="/signUp">Sign Up</a>   
             </div>
         </div>
     );

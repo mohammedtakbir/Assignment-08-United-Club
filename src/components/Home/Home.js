@@ -22,7 +22,8 @@ const Home = () => {
         }else{
             setCart([selectActivity]);
         }
-    }
+    };
+    const [addBreaks, setAddBreaks] = useState([]);
     return (
         <div className='mt-10 main'>
             <h1 className='text-2xl font-medium'>Select Today's Exercise</h1>
@@ -35,8 +36,8 @@ const Home = () => {
                 <div className="right-side bg-white pt-5 px-10">
                     <div className="details-container">
                         <About></About>
-                        <AddBreak></AddBreak>
-                        <ExerciseDetails cart={cart}></ExerciseDetails>
+                        <AddBreak setAddBreaks={setAddBreaks}></AddBreak>
+                        <ExerciseDetails cart={cart} addBreaks={addBreaks}></ExerciseDetails>
                     </div>
                 </div>
             </div>

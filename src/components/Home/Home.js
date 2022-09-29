@@ -24,6 +24,12 @@ const Home = () => {
         }
     };
     const [addBreaks, setAddBreaks] = useState([]);
+
+    useEffect( () => {
+        const storedData = JSON.parse(localStorage.getItem('addTime')); 
+        setAddBreaks(storedData);
+    }, []);
+
     return (
         <div className='my-10 main'>
             <h1 className='text-2xl font-medium'>Select Today's Training</h1>
